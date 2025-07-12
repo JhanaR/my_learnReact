@@ -1,2 +1,2 @@
 # InterviewUI
-Prereq,React.js,Angular19
+React.js
