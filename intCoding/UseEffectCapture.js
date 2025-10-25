@@ -16,9 +16,8 @@ export default function UseEffectCapture() {
     <>
       <h1>Welcome {type || "Guest"}</h1>
       {/* <input type="text" value ={type} onChange={changeHandler}/> */}
-      <input type="text" value ={type} onChange={(e) => 
-    setType(e.target.value)} />
-      <input type="text" value={type}  readOnly/>
+      <input type="text" value ={type} onChange ={(e)=>setType(e.target.value)} />
+      <input type="text" value={type ||"User Not Typing" }  readOnly/>
     </>
   );
 }
