@@ -1,16 +1,18 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Greeting from "./component/Greeting";
+// import Greeting from "./component/Greeting";
 // import Productsearch from "./intCoding/Product Search";
 // import DebouncedSearchInput from './component/DebouncedSearchInput';
-// import UseEffectCapture from "./intCoding/UseEffectCapture";
-import UseEffectAPI from "./ToDo/UseEffectAPI";
+import UseEffectCapture from "./intCoding/UseEffectCapture";
+// import UseEffectAPI from "./ToDo/UseEffectAPI";
+// import Parent from "./intCoding/ReactMemo";
 
 function App() {
   return (
     <div className="App">
-      <Greeting/>
-      {/* <UseEffectCapture /> */}
+      {/* <Greeting/> */}
+      {/* <Parent/> */}
+      <UseEffectCapture />
       {/* UseEffectAPI */}
       {/* <DebouncedSearchInput/> */}
       {/* <Productsearch/> */}
